@@ -1,0 +1,234 @@
+section{
+    min-height: 640px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+input, label, textarea, button{
+    color: white;
+    font-family: Poppins;
+    font-size: 18px;
+}
+.navbar{
+    position: fixed;
+    z-index: 2;
+    font-family: Poppins;
+    width: 100%;
+    white-space: nowrap;
+    background-color: black;
+}
+th, td{
+    color: white;
+    text-align: center;
+}
+/* Jumbotron */
+.jumbotron{
+    /* background-image: url(asset/Gultomian.jpg); */
+    background-image: url(asset/background1.jpg);
+    background-size: cover;
+    height: 640px;
+    position: relative;
+}
+
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+    position: absolute;
+    bottom: 0;
+}
+.jumbotron .display-4{
+    color: white;
+    font-family: Viga;
+    
+}
+.jumbotron .lead{
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+
+}
+
+.section2 .thumbnail{
+    /* margin-bottom: 200px; */
+    width: 100%;
+}
+.section2 .lead{
+    font-size: 20px;
+}
+/* Utility */
+
+
+.tombol{
+    border-radius: 10px;
+}
+
+
+
+/* Desktop */
+
+@media (min-width: 992px) { 
+
+    /* #container{
+        margin-left: -50px;
+    } */
+    table{
+        width: 100%;
+        margin: 10px;
+        
+    }
+    th{
+        font-family: Poppins;
+        font-size: 18px;
+        width: 20%;
+    }
+    
+    td{
+        color: white;
+        font-family: Poppins;
+        font-size: 16px;
+        margin-top: 10px;
+        /* border: 1px solid white; */
+        height: 200px;
+        text-align: center;
+    }
+    .navbar-brand{
+        color: white !important;
+    }
+    
+    .nav-link{
+        margin-right: 30px;
+        color: white !important;
+    }
+    
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    /* .jumbotron{
+        margin-top: -75px;
+    } */
+    .jumbotron .display-4{
+        margin-top: 200px;
+    }
+
+    .section2 .display-about{
+        margin-top: 200px;
+    }
+    .section2 .thumbnail{
+        margin-top: 150px;
+        /* margin-bottom: 100px; */
+        width: 500px;
+    }
+    .section3 .display-work{
+        width: 100%;
+        margin-top: 200px;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    .section4 .display-contact{
+        margin-top: 150px;
+        margin-left: 15px;
+    }
+    .section4 .lead{
+        margin-bottom: 50px;
+    }
+
+    
+}
+
+/* Mobile */
+@media (max-width: 768px)  { 
+    
+    .navbar-brand{
+        display: none;
+    }
+    
+    .nav-link{
+        color: white !important;
+    }
+    .navbar-toggle {
+        border-color: white !important;
+        order:0;
+        margin-left:15px;
+        margin-right:0;
+    }
+    .jumbotron{
+        background-position: 75%;
+    }
+    .jumbotron .display-4{
+        font-size: 40px;
+        margin-top: 100px;
+    }
+    .jumbotron .lead{
+        font-size: 16px;    
+    }
+    .section2 .display-about{
+        font-size: 32px;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .section2 .lead{
+        font-size: 16px;
+        text-align: center;
+    }
+    .section2 .thumbnail{
+        /* margin-top: 200px; */
+        width: 100%
+    }
+    .section3 .display-work{
+        font-size: 32px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section4 .display-contact{
+        font-size: 32px;
+        margin-top: 100px;
+        margin-left:20px;
+    }
+    .section4 .lead{
+        font-size: 16px;
+        margin-left:20px;
+    }
+    table{
+        width: 100%;
+        margin: 10px;
+        
+        
+    }
+    th{
+        color: white;
+        font-family: Poppins;
+        font-size: 16px;
+        text-align: center;
+        width: 20%;
+    }
+    
+    td{
+        color: white;
+        font-family: Poppins;
+        font-size: 14px;
+        margin-top: 10px;
+        /* border: 1px solid white; */
+        height: 200px;
+        text-align: center;
+    }
+    .section4 .lead{
+        margin-bottom: 50px;
+    }
+
+ }
