@@ -152,14 +152,15 @@ th, td{
 }
 
 /* Mobile */
-@media (max-width: 768px)  { 
+@media (max-width: 577px)  { 
     
-    .navbar-brand{
+    /* .navbar-brand{
         display: none;
-    }
+    } */
     
     .nav-link{
         color: white !important;
+        text-align: center;
     }
     .navbar-toggle {
         border-color: white !important;
@@ -172,7 +173,7 @@ th, td{
     }
     .jumbotron .display-4{
         font-size: 40px;
-        margin-top: 100px;
+        margin-top: 350px;
     }
     .jumbotron .lead{
         font-size: 16px;    
@@ -198,11 +199,11 @@ th, td{
     .section4 .display-contact{
         font-size: 32px;
         margin-top: 100px;
-        margin-left:20px;
+        margin-left:15px;
     }
     .section4 .lead{
         font-size: 16px;
-        margin-left:20px;
+        /* margin-left:15px; */
     }
     table{
         width: 100%;
