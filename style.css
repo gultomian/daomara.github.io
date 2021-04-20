@@ -19,6 +19,9 @@ input, label, textarea, button{
     white-space: nowrap;
     background-color: black;
 }
+.navbar-brand, .nav-link{
+    font-family: Poppins;
+}
 th, td{
     color: white;
     text-align: center;
