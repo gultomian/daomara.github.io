@@ -29,6 +29,9 @@ input, textarea{
     font-family: Viga;
 }
 
+th{
+    height: 50px;
+}
 
 th, td{
     color: white;
@@ -68,20 +71,33 @@ th, td{
     font-family: Viga;
 
 }
-
+/* .section2 .display-about{
+    margin-left: 50px;
+} */
 .section2 .thumbnail{
     /* margin-bottom: 200px; */
     width: 100%;
 }
 .section2 .lead{
+    /* margin-left: 50px; */
     font-size: 20px;
 }
 /* Utility */
+tr:nth-child(even) {
+    background-color: #f2f2f22c;
+}
 
 
 .tombol{
     border-radius: 10px;
     font-family: Viga;
+}
+
+.section3 .display-work{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 
@@ -94,21 +110,21 @@ th, td{
         margin-left: -50px;
     } */
     table{
-        width: 100%;
+        /* width: 100%; */
         margin: 10px;
+        
         
     }
     th{
         font-size: 18px;
         width: 20%;
     }
-    
     td{
         font-size: 16px;
         margin-top: 10px;
-        /* border: 1px solid white; */
+        /* border: 2px solid gray; */
         height: 200px;
-        text-align: center;
+        
     }
     .navbar-brand{
         color: white !important;
@@ -145,10 +161,7 @@ th, td{
         width: 500px;
     }
     .section3 .display-work{
-        width: 100%;
-        margin-top: 100px;
         text-align: center;
-        margin-bottom: 100px;
     }
     .section4 .display-contact{
         margin-top: 150px;
@@ -156,6 +169,7 @@ th, td{
     }
     .section4 .lead{
         margin-bottom: 50px;
+        
     }
 
     
@@ -172,13 +186,12 @@ th, td{
         color: white !important;
         text-align: center;
     }
-    .navbar-toggle {
-        border-color: white !important;
-        order:0;
-        margin-left:15px;
-        margin-right:0;
-    }
 
+    .navbar-toggler:focus {
+        outline: 0;
+        outline-color: transparent;
+        outline-style: none;
+      }
     
     .jumbotron{
         background-position: 75%;
@@ -208,9 +221,6 @@ th, td{
     }
     .section3 .display-work{
         font-size: 32px;
-        margin-top: 100px;
-        margin-bottom: 50px;
-        text-align: center;
     }
     .section4 .display-contact{
         font-size: 32px;
@@ -228,17 +238,16 @@ th, td{
         
     }
     th{
-        font-size: 16px;
-        text-align: center;
+        font-size: 14px;
         width: 20%;
+        
     }
     
     td{
-        font-size: 12px;
-        margin-top: 10px;
+        font-size: 10px;
+        /* margin-top: 10px; */
         /* border: 1px solid white; */
-        height: 200px;
-        text-align: center;
+        height: 180px;
     }
 
     .section3 .lead{
